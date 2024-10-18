@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in {a..z} ; do for j {a..z} ; do [[$i$j != oo]] && echo $i$j ; done ; done
